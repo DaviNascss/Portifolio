@@ -1,0 +1,181 @@
+/* Barra de navegação */
+
+nav{
+    height: 5vw;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    padding-top: 2vw;
+    z-index: 1;
+}
+
+nav div{
+    display: flex;
+    gap: 3vw;
+}
+
+#home{
+    display: flex;
+}
+
+#home div{
+    display: flex;
+    width: 35vw;
+    height: 25vw;
+    flex-direction: column;
+    margin: 4vw 0 0 8vw;
+}
+
+#home div h2{
+    width: 30vw;
+    height: 12vw;
+    line-height: 0.9;  
+}
+
+#home div p{
+    width: 36vw;
+    line-height: 1.5;  
+}
+
+#home div button{
+    margin-top: 1.5vw;
+}
+
+/* Sobre */
+
+#sobre{
+    margin-top: 18vw;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.61) 54%, rgba(0, 0, 0, 0) 100%);
+    height: 50vw;
+    display: flex;
+}
+
+#sobre article{
+    margin: 0 0 0 8vw;
+    height: 35vw;
+    flex-direction: column;
+    position: absolute;
+}
+
+#sobre p{
+    margin-top: 1vw;
+    width: 40vw;
+    line-height: 1.5;  
+}
+
+.tec{
+    position: absolute;
+    width: 42vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.iconsformacao{
+    width: 10vw;
+}
+
+.formacao{
+    margin-top: 9vw;
+    flex-direction: column;
+    display: flex;
+    gap: 1vw;
+}
+
+.iconstec{
+    margin-top: 1vw;
+    width: 5.5vw;
+    transition: 0.5s;
+}
+
+.iconstec:hover{
+    width: 6vw;
+    transition: 1s;
+}
+
+.limiredes{
+    width: 100vw;
+    overflow: hidden !important;
+    overflow-y: auto !important; 
+}
+
+/* Trabalhos */
+
+#trabalhos{
+    height: 42vw;
+    /* background: linear-gradient(180deg,rgba(0, 0, 0, 1) 11%, rgba(0, 0, 0, 0) 100%); */
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 16%, rgba(0, 0, 0, 0.82) 54%, rgba(0, 0, 0, 0) 100%);
+    text-align: center;
+}
+
+.trabdescri{
+    text-align: center;
+    flex-direction: column;
+    gap: 1vw;
+    display: flex;
+    width: 27vw;
+    margin: 0 auto 4vw auto;
+}
+
+
+.swiper-slide{
+    width: 50vw !important;
+    height: 25vw !important;
+    border-radius: 1.6vw;
+    background-color: rgba(137, 43, 226, 0);
+    overflow: hidden;
+    margin-bottom: 2vw;
+}
+
+.container{
+    display: flex;
+}
+
+.imgtrab{
+    position: absolute;
+    z-index: -1;
+}
+
+.sepdecri{
+    text-align: left;
+    position: absolute;
+    margin: 15vw 0 0 5vw;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 6vw;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.septfooter{
+    margin: 0 auto;
+    text-align: center;
+    gap: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.septfooter p{
+    margin: 0 auto;
+    width: 30vw;
+    text-align: center;
+}
+
+form{
+    background-color: blue;
+    flex-direction: column;
+    display: flex;
+    height: 25vw ;
+    width: 30vw;
+}
+
+input{
+    background-color:rgba(127, 255, 212, 0);
+    border: none;
+    border-bottom: 0.2vw solid rgb(255, 255, 255);
+    text-decoration: none;
+    height: 2vw;
+}
