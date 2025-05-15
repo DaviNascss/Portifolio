@@ -165,17 +165,33 @@ footer{
 }
 
 form{
-    background-color: blue;
     flex-direction: column;
     display: flex;
     height: 25vw ;
     width: 30vw;
+    margin: 2vw auto;
 }
 
 input{
-    background-color:rgba(127, 255, 212, 0);
+    background-color:rgba(72, 168, 136, 0);
     border: none;
     border-bottom: 0.2vw solid rgb(255, 255, 255);
     text-decoration: none;
-    height: 2vw;
+    color: var(--cor-branco);
+    height: 2.5vw;
+    padding: 0 1vw 0 1vw;
+}
+
+label{
+    margin: 2vw 0 0 1vw;
+}
+
+textarea{
+    margin-top: 1vw;
+    height: 8vw;
+    border-radius: 0.7vw;
+    background-color:rgba(240, 248, 255, 0.247);
+    padding: 1vw;
+    resize: none;
+    box-shadow: 0vw 0vw 2vw var(--cor-roxo);
 }

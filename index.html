@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davi Nascimento</title>
     <!-- CSS do trabalho -->
-    <link rel="stylesheet" type="text/css" href="/css/config.css">
+    <link rel="stylesheet" type="text/css" href="css/config.css">
     <!-- CSS do trabalho -->
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Spline -->
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.94/build/spline-viewer.js" defer></script>
      <!-- Link Swiper's CSS -->
@@ -15,7 +15,9 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- JS do trabalho -->
-     <script src="/js/script.js" defer></script>
+     <script src="js/script.js" defer></script>
+     <!-- Logo -->
+    <link rel="shortcut icon" type="imagex/png" href="img/logo/logo.png">
 </head>
 <body>
     <spline-viewer id="fundo" url="https://prod.spline.design/YAk4OuK57H-MnfxL/scene.splinecode"></spline-viewer>
@@ -176,18 +178,19 @@
 
         <div>
             <form>
-                <label class="t3">Nome:</label>
-                <input type="text" name="teste">
-                <label class="t3">Email:</label>
-                <input type="text">
-                <label class="t3">Assunto</label>
-                <input type="text">
+                <!-- <label class="t3">Nome:</label> -->
+                <input  type="text" name="nome" placeholder="Nome" class="t4">
+                <!-- <label class="t3">Email:</label> -->
+                <input  type="email" name="email" placeholder="Email" class="t4">
+                <!-- <label class="t3">Assunto</label> -->
+                <input  type="text" name="assunto" placeholder="Assunto" class="t4">
+                <label class="t3">Mensagem</label>
+                <textarea  type="text" placeholder="Digite sua mensagem" name="mensagem" class="t4"> </textarea>
+
+                
             </form>
         </div>
-
         
     </footer>
-
-
 </body>
 </html>
