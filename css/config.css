@@ -127,6 +127,28 @@ a{
     border: none;
 }
 
+.btnform{
+    background: linear-gradient(90deg, var(--cor-ciano), var(--cor-roxo)); 
+    border: none;
+    font: bold 1.1vw Serif;
+    color: var(--cor-branco);
+    width: 100%;
+    height: 3vw;
+    border-radius: 0.7vw;
+    text-align: center;
+    justify-content: center;
+    transition: 1s;
+    cursor: pointer;
+    margin-top: 2vw;
+}
+
+.btnform:hover{
+    transition: 0.5s;
+    background: linear-gradient(90deg, var(--cor-branco), var(--cor-branco)); 
+    color:var(--cor-preto);
+    box-shadow: 0vw 0vw 1vw var(--cor-roxo);
+}
+
 .btndowload img{
     width: 1.2vw;
     margin-left: 0.7vw;
