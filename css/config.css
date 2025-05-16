@@ -107,17 +107,19 @@ a{
 }
 
 .btndowload{
+    margin-top: 2vw;
     background-color:var(--cor-preto);
     border: 0.3vw solid;
     border-color: var(--cor-branco);
     font: bold 1.3vw Serif;
     color: var(--cor-branco);
+    padding-top: 0.9vw;
     width: 12vw;
-    height: 3vw;
+    height: 2.5vw;
     border-radius: 0.7vw;
     text-align: center;
     justify-content: center;
-    transition: 1s;
+    transition: 0.5s;
     cursor: pointer;
 }
 
