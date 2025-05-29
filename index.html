@@ -16,10 +16,44 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- JS do trabalho -->
      <script src="js/script.js" defer></script>
+    <!-- JS dos Projetos finalizados -->
+     <script src="js/viewProjs.js" defer></script>
      <!-- Logo -->
     <link rel="shortcut icon" type="imagex/png" href="img/logo/logo.png">
 </head>
 <body>
+
+          <section id="trabview" class="hide">
+            <img id="imgproj" class="configVimg" src="img/trabalhos/systemwave.png">
+
+            <p id="dataTrab" class="t3">Carregando...</p>
+
+            <div id="infostrabV">
+                <h2 id="tituloproj" class="t2">Carregando...</h2>
+                <p id="descriproj" class="t3">Caso tenha se interessado, entre em contato comigo através de minhas redes sociais, será um imenso prazer poder trabalhar com novas pessoas!  será um imenso prazer poder trabalhar com novas pessoas!</p>
+
+                <p class="t3">Desenvolvido pelas tecnologias:</p>
+
+                <div>
+                    <img id="ht" class="iconsprojs" src="img/icons/html.png">
+                    <img id="cs" class="iconsprojs" src="img/icons/css.png">
+                    <img id="js" class="iconsprojs" src="img/icons/js.png">
+                    <img id="re" class="iconsprojs" src="img/icons/react.png">
+                    <img id="fi" class="iconsprojs" src="img/icons/figma.png">
+                    <img id="be" class="iconsprojs" src="img/icons/blender.png">
+                </div>
+
+                <div class="groupbtns">
+                    <a id="btn1" class="t4" href="">Abrir</a>
+                    <a id="btn2" href> <img class="btnimggit" src="img/icons/git.png"> </a>
+                </div>
+
+                <a onclick="Voltar()"><img id="voltar" src="img/icons/setaL.png"></a>
+
+
+            </div>
+          </section>
+
     <spline-viewer id="fundo" url="https://prod.spline.design/YAk4OuK57H-MnfxL/scene.splinecode"></spline-viewer>
 
     <nav>
@@ -75,6 +109,7 @@
 
   
     </section>
+    
 
     <section id="trabalhos">
 
@@ -90,7 +125,7 @@
           <div class="swiper-wrapper">
 
             <!-- Slide-start -->
-            <a href="https://systemwave.com.br/" class="swiper-slide tranding-slide" target="_blank">
+            <a id="systemwave" onclick="Troca('systemwave')" class="swiper-slide tranding-slide" target="_blank">
                 <div class="container">
                     <div class="sepdecri">
                         <h3 class="t2x5" class="tproj">System Wave</h3>
@@ -101,7 +136,7 @@
             </a>
             <!-- Slide-end -->
             <!-- Slide-start -->
-            <a href="https://davin4sciment0.github.io/Kombi_And_Attack_Dinosaurs/" class="swiper-slide tranding-slide" target="_blank">
+            <a id="gub" onclick="Troca('gub')" class="swiper-slide tranding-slide" target="_blank">
                 <div class="container">
                     <div class="sepdecri">
                         <h3 class="t2x5" class="tproj">GUB</h3>
@@ -112,7 +147,7 @@
             </a>
             <!-- Slide-end -->
             <!-- Slide-start -->
-             <a href="https://davin4sciment0.github.io/Charge/" class="swiper-slide tranding-slide" target="_blank">
+             <a id="charge" onclick="Troca('charge')" class="swiper-slide tranding-slide" target="_blank">
                 <div class="container">
                     <div class="sepdecri">
                         <h3 class="t2x5" class="tproj">Charge</h3>
@@ -123,7 +158,7 @@
             </a>
             <!-- Slide-end -->
             <!-- Slide-start -->
-             <a href="https://davin4sciment0.github.io/Kombi_And_Attack_Dinosaurs/" class="swiper-slide tranding-slide" target="_blank">
+             <a id="plantsp" onclick="Troca('plantsp')" class="swiper-slide tranding-slide" target="_blank">
                 <div class="container">
                     <div class="sepdecri">
                         <h3 class="t2x5" class="tproj">PlantSP</h3>
@@ -134,7 +169,7 @@
             </a>
             <!-- Slide-end -->
             <!-- Slide-start -->
-            <a href="https://davin4sciment0.github.io/Kombi_And_Attack_Dinosaurs/" class="swiper-slide tranding-slide" target="_blank">
+            <a id="escudo" onclick="Troca('escudo')" class="swiper-slide tranding-slide" target="_blank">
                 <div class="container">
                     <div class="sepdecri">
                         <h3 class="t2x5" class="tproj">Escudo Capitão América</h3>
@@ -145,7 +180,7 @@
             </a>
             <!-- Slide-end -->
             <!-- Slide-start -->
-            <a href="https://davin4sciment0.github.io/Kombi_And_Attack_Dinosaurs/" class="swiper-slide tranding-slide" target="_blank">
+            <a id="foxy" onclick="Troca('foxy')" class="swiper-slide tranding-slide" target="_blank">
                 <div class="container">
                     <div class="sepdecri">
                         <h3 class="t2x5" class="tproj">Foxy</h3>
@@ -156,7 +191,7 @@
             </a>
             <!-- Slide-end -->
             <!-- Slide-start -->
-            <a href="https://davin4sciment0.github.io/Kombi_And_Attack_Dinosaurs/" class="swiper-slide tranding-slide" target="_blank">
+            <a id="walle" onclick="Troca('walle')" class="swiper-slide tranding-slide" target="_blank">
                 <div class="container">
                     <div class="sepdecri">
                         <h3 class="t2x5" class="tproj">Wall E</h3>
@@ -172,11 +207,6 @@
     </section>
          <a class="tdegrade">Ver todos</a>
 
-        <div id="trabalhosall">
-            <a>
-                <img src="img/trabalhos/systemwave.png">
-            </a>
-        </div>
 
     </section>
 
