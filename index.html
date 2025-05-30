@@ -10,15 +10,17 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Spline -->
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.94/build/spline-viewer.js" defer></script>
-     <!-- Link Swiper's CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Link CSS mobile -->
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- JS do trabalho -->
-     <script src="js/script.js" defer></script>
+    <script src="js/script.js" defer></script>
     <!-- JS dos Projetos finalizados -->
-     <script src="js/viewProjs.js" defer></script>
-     <!-- Logo -->
+    <script src="js/viewProjs.js" defer></script>
+    <!-- Logo -->
     <link rel="shortcut icon" type="imagex/png" href="img/logo/logo.png">
 </head>
 <body>
@@ -32,9 +34,9 @@
                 <h2 id="tituloproj" class="t2">Carregando...</h2>
                 <p id="descriproj" class="t3">Caso tenha se interessado, entre em contato comigo através de minhas redes sociais, será um imenso prazer poder trabalhar com novas pessoas!  será um imenso prazer poder trabalhar com novas pessoas!</p>
 
-                <p class="t3">Desenvolvido pelas tecnologias:</p>
+                <p id="tecsep" class="t3">Desenvolvido pelas tecnologias:</p>
 
-                <div>
+                <div id="sepicons">
                     <img id="ht" class="iconsprojs" src="img/icons/html.png">
                     <img id="cs" class="iconsprojs" src="img/icons/css.png">
                     <img id="js" class="iconsprojs" src="img/icons/js.png">
@@ -44,11 +46,11 @@
                 </div>
 
                 <div class="groupbtns">
-                    <a id="btn1" class="t4" href="">Abrir</a>
-                    <a id="btn2" href> <img class="btnimggit" src="img/icons/git.png"> </a>
+                    <a id="btn1" class="t4" href="" target="_blank">Abrir</a>
+                    <a id="btn2" href="" target="_blank"> <img class="btnimggit" src="img/icons/git.png"> </a>
                 </div>
 
-                <a onclick="Voltar()"><img id="voltar" src="img/icons/setaL.png"></a>
+                <a id="btnvolta" onclick="Voltar()"><img id="voltar" src="img/icons/setaL.png"></a>
 
 
             </div>
@@ -71,7 +73,7 @@
             <img src="img/icons/setaL.png">
         </a>
 
-        <a id="whatsapp">
+        <a id="whatsapp" href="https://wa.me/5511913521799?text=Ol%C3%A1!%20Tudo%20bem%3F%3F" target="_blank">
             <img id="iconzap" src="img/icons/contato.png">
             <img id="fundozap" src="img/icons/fundoW.png">
         </a>
@@ -82,6 +84,8 @@
             <h2 class="t1">Davi Nascimento</h2>
             <p class="t3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, aliquam error libero incidunt optio odit beatae deserunt neque sint unde ipsa aut. Placeat harum vero cum libero consequuntur magnam repellendus.</p>
             <a href="curriculo/curriculoDavi.pdf" download class="btndowload">Currículo <img src="img/icons/download.png"></a>
+            
+            <a id="btncont" class="btncont" href="https://wa.me/5511913521799?text=Ol%C3%A1!%20Tudo%20bem%3F%3F"  class="btndowload">Contato</a>
         </div>
     </section>
 
@@ -214,7 +218,7 @@
         </div>
       </div>
     </section>
-         <a class="tdegrade" href="">Contato</a>
+         <a class="tdegrade" href="https://wa.me/5511913521799?text=Ol%C3%A1!%20Tudo%20bem%3F%3F" target="_blank">Contato</a>
 
 
     </section>
@@ -236,7 +240,7 @@
                 <label class="t3">Mensagem</label>
                 <textarea  type="text" placeholder="Digite sua mensagem" name="mensagem" class="t4"> </textarea>
 
-                <button type="submit" class="btnform">Enviar Mensagem</button>
+                <button type="submit" class="btnform" onclick="alerta()">Enviar Mensagem</button>
             </form>
         </div>
 

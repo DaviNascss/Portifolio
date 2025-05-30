@@ -78,6 +78,7 @@ nav div{
 }
 
 #whatsapp{
+    z-index: 99999;
     position: fixed;
     margin-top: 36vw;
 }
@@ -295,8 +296,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     background: linear-gradient(90deg, var(--cor-roxo), var(--cor-inter));
     border-radius: 0.5vw 0 0 0.5vw;
     display: flex;
-    width: 12vw;
-    height: 2.2vw;
     padding-top: 0.8vw;
     justify-content: center;
 }
@@ -312,8 +311,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         transition: 0.5s;
    background: linear-gradient(90deg, var(--cor-inter), var(--cor-ciano));
     border-radius: 0 0.5vw 0.5vw 0;
-    width: 12vw;
-    height: 3vw;
 }
 
 .iconsprojs{

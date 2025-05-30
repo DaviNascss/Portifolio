@@ -1,0 +1,298 @@
+@media(max-width:500px){
+
+    .text{
+        font-size:3vw;
+    }
+
+    #fundo{
+        width: 140vw;
+    }
+
+    #inicio div{
+        display: none;
+    }
+
+    #btnsubir{
+        display: none;
+    }
+
+    .logo{
+        width: 9vw;
+        margin: 6vw 6vw;
+    }
+
+    #whatsapp{
+        margin: 188.2vw 0 0 0;
+    }
+
+    #iconzap{
+        margin: 10vw 0 0 3vw;
+        width: 12vw;
+    }
+
+    #fundozap{
+        width: 50vw;
+    }
+
+    #home{
+        margin-top: 40vw;
+        height: 100vw;
+    }
+
+    #home div h2{
+        font: bold 15vw Serif;
+    }
+
+    #home div p{
+        margin: 24vw 0 0 0;
+        width: 80vw;
+        font: normal 4vw Serif;
+    }
+
+    #home div a{
+        display: flex;
+        background-color:var(--cor-trans);
+        margin: 7vw 0 0 0;
+        width: 50vw;
+        padding: 2vw 0 4vw 0 ;
+        border-radius: 2.5vw;
+        border: 0.7vw solid;
+        font: normal 4vw Serif;
+    }
+
+    #btncont{
+        background: linear-gradient(90deg, var(--cor-ciano), var(--cor-roxo)); 
+        border: none !important;
+    }
+
+
+    #home div a img{
+        width: 4vw;
+        height: 4vw;
+        margin-left: 4vw;
+    }
+
+    /* Sobre */
+
+    #sobre{
+        margin-top: 80vw;
+        height: 180vw;
+    }
+
+    #sobre article h1{
+        animation-range: cover 0% cover 30%;
+        font: bold 11vw Serif;
+    }
+
+    #sobre article p{
+        font: normal 4vw Serif;
+        width: 70vw;
+        animation-range: cover 0% cover 30%;
+    }
+
+    .tec{
+        width: 80vw;
+    }
+
+    .iconstec{
+        animation-range: cover 0% cover 25%;
+        width: 15vw;
+    }
+
+    .iconsformacao{
+        display: flex;
+        width: 30vw;
+    }
+
+    .formacao{
+        animation-range: cover 0% cover 30%;
+        margin-top: 40vw;
+        gap: 3vw;
+    }
+
+    #trabalhos{
+        height: 190vw;
+    }
+
+    #trabalhos h3{
+        margin-top: 55vw;
+        font: bold 7vw Serif;
+    }
+
+        #trabalhos p{
+        margin-top: 1vw;
+        font: normal 3vw Serif;
+    }
+
+    .swiper-slide{
+        margin-top: 5vw;
+        height: 100vw !important;
+        width: 60vw !important;
+        border-radius: 4vw;
+        margin-bottom: 7vw;
+    }
+
+    .trabdescri{
+        width: 90vw;
+        text-align: center;
+        justify-content: center !important;
+    }
+
+    .trabdescri h2{
+        font: bold 12vw Serif;
+        animation-range: cover 0% cover 50%;
+    }
+    
+    .trabdescri p{
+        text-align: center;
+        margin: 5vw 0 0 10vw;
+        width: 70vw;
+        font: bold 12vw Serif;
+        animation-range: cover 0% cover 50%;
+    }
+
+    .tdegrade{
+        margin-top: 10vw !important;
+        font: bold 6vw Serif ;
+    }
+
+    #redes{
+        display: none;
+    }
+
+    #contato{
+        height: 200vw;
+    }
+
+    .septfooter h2{
+         font: bold 8vw Serif;
+        animation-range: cover 0% cover 50%;
+    }
+    
+    .septfooter p{
+        font: normal 3vw Serif;
+        width: 80vw;
+         margin-top: 2vw;
+        animation-range: cover 0% cover 50%;
+    }
+
+    form{
+        margin-top: 14vw;
+        width: 80vw;
+        height: 140vw;
+    }
+
+input{
+    background-color:rgba(72, 168, 136, 0);
+    border: none;
+    border-bottom: 0.7vw solid rgb(255, 255, 255);
+    text-decoration: none;
+    color: var(--cor-branco);
+    height: 10vw;
+    padding: 0 1vw 0 1vw;
+    font: normal 4vw Serif !important;
+
+    animation: appear 3ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 80%;
+}
+
+label{
+     font: bold 5vw Serif !important;
+     margin-top: 5vw !important;
+}
+
+textarea{
+    padding: 2.5vw;
+    height: 40vw;
+    font: normal 5vw Serif !important;
+    border-radius: 2vw;
+}
+
+.btnform{
+    font: bold 4.5vw Serif;
+    height: 10vw;
+    border-radius: 2vw;
+    margin-top: 10vw;
+}
+
+small{
+    margin-top: 12vw;
+    font: normal 2vw Serif;
+}
+
+#trabview{
+    margin-top: 30vw;
+    height: 140vw;
+    border-radius: 4vw;
+}
+
+#imgproj{
+    width: 400vw;
+    height:40vw;
+    border-radius: 3vw;
+}
+
+#infostrabV{
+    position: absolute;
+    margin: 48vw 0 0 4vw;
+    width: 72vw;
+    height: 80vw;
+}
+
+#dataTrab{
+    margin: 125vw 0 0 5vw; 
+    font: normal 4vw Serif;
+}
+
+#btnvolta{
+    position: absolute;
+    margin: 75vw 0 0 35vw
+}
+
+#voltar{
+    width: 8vw;
+}
+
+#tituloproj{
+    font: bold 8vw Serif;
+}
+
+#descriproj{
+    margin-top: 2vw;
+    font: normal 3vw Serif;
+}
+
+.iconsprojs{
+    width: 12vw;
+}
+
+#btn1{
+    border-radius: 2vw 0 0 2vw;
+    display: flex;
+    width: 35vw;
+    height: 6.5vw;
+    padding-top: 3vw;
+    font: bold 3.5vw Serif;
+}
+
+#btn2{
+    border-radius: 0 2vw 2vw 0;
+    width: 35vw;
+    padding-top: 2vw;
+    height: 7.5vw;
+}
+
+.btnimggit{
+    width: 5vw;
+    height: 5vw;
+    margin-left: 15vw;
+}
+
+
+#tecsep{
+    margin-top: 5vw;
+    font: bold 4vw Serif;
+}
+
+}

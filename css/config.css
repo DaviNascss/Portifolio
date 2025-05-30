@@ -5,6 +5,7 @@
     --cor-inter: #439CC7;
     --cor-roxo:#878FE4;
     --cor-roxotrans:#878fe491;
+    --cor-trans:#00000000;
 }
 
 
@@ -147,14 +148,36 @@ a{
     border-color: var(--cor-branco);
     font: bold 1.3vw Serif;
     color: var(--cor-branco);
-    padding-top: 0.9vw;
+    padding: 0.9vw;
     width: 12vw;
-    height: 2.5vw;
+    height: 3vw;
     border-radius: 0.7vw;
     text-align: center;
     justify-content: center;
     transition: 0.5s;
     cursor: pointer;
+}
+
+.btncont{
+    margin-top: 2vw;
+    background: linear-gradient(90deg, var(--cor-ciano), var(--cor-roxo)); 
+    border: none;
+    border-color: var(--cor-branco);
+    font: bold 1.3vw Serif;
+    color: var(--cor-branco);
+    padding: 0.9vw;
+    width: 12vw;
+    height: 3vw;
+    border-radius: 0.7vw;
+    text-align: center;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btncont:hover{
+    background: linear-gradient(90deg, var(--cor-branco), var(--cor-branco)); 
+    color: var(--cor-preto);
 }
 
 .btndowload:hover{

@@ -22,7 +22,7 @@ function Voltar() {
 }
 
 function alerta(){
-    alert("Este projeto não possui github");
+    alert("Mensagem enviada");
 }
 
 class Projetos {
