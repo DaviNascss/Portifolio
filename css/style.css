@@ -77,6 +77,32 @@ nav div{
     transform: rotate(-90deg);
 }
 
+#whatsapp{
+    position: fixed;
+    margin-top: 36vw;
+}
+
+#iconzap{
+    opacity: 0.7;
+    transition: 0.5s;
+    z-index: 9999;
+    margin: 4.5vw 0 0 1.5vw;
+    width: 5vw;
+    position: absolute;
+}
+
+#iconzap:hover{
+    opacity: 1;
+    transition: 1s;
+    margin: 4vw 0 0 1.5vw;
+    width:5.5vw;
+}
+
+#fundozap{
+    width: 22vw;
+    position: absolute;
+}
+
 /* Sobre */
 
 #sobre{
@@ -358,10 +384,18 @@ input{
     color: var(--cor-branco);
     height: 2.5vw;
     padding: 0 1vw 0 1vw;
+
+    animation: appear 3ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
 }
 
 label{
     margin: 2vw 0 0 1vw;
+
+    animation: appear 3ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
 }
 
 textarea{
@@ -372,6 +406,10 @@ textarea{
     padding: 1vw;
     resize: none;
     box-shadow: 0vw 0vw 2vw var(--cor-roxo);
+
+    animation: appear 3ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 30%;
 }
 
 small{
@@ -379,4 +417,9 @@ small{
     text-align: center;
     color: rgba(255, 255, 255, 0.356);
     font: normal 0.6vw Serif;
+}
+form button{
+    animation: up 3ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 20%;
 }
