@@ -1,0 +1,18 @@
+h1{
+    position: absolute;
+    z-index: 1;
+    margin: 5vw 41vw;
+    width: 20vw;
+}
+
+spline-viewer{
+    position: absolute;
+    z-index: 0;
+}
+
+#btncont{
+    margin: 39vw 43.5vw;
+    position: absolute;
+    z-index: 2;
+    height: 1.5vw;
+}

@@ -143,13 +143,13 @@ a{
 
 .btndowload{
     margin-top: 2vw;
-    background-color:var(--cor-preto);
+    background-color:var(--cor-trans);
     border: 0.3vw solid;
     border-color: var(--cor-branco);
     font: bold 1.3vw Serif;
     color: var(--cor-branco);
     padding: 0.9vw;
-    width: 12vw;
+    width: 11.5vw;
     height: 3vw;
     border-radius: 0.7vw;
     text-align: center;
@@ -182,7 +182,7 @@ a{
 
 .btndowload:hover{
     background-color: var(--cor-roxo);
-    transform: scale(1.05); 
+    transform: scale(1.10); 
     border: none;
 }
 

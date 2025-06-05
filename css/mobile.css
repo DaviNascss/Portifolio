@@ -22,7 +22,7 @@
     }
 
     #whatsapp{
-        margin: 188.2vw 0 0 0;
+        margin: 178% 0 0 0;
     }
 
     #iconzap{
@@ -296,3 +296,46 @@ small{
 }
 
 }
+
+@media(min-width:300px) and (max-width: 380px){
+   #whatsapp{
+        margin: 150% 0 0 0;
+    }
+}
+
+@media(min-width:350px) and (max-width: 380px){
+   #whatsapp{
+        margin: 178% 0 0 0;
+    }
+}
+
+@media(min-width:380px) and (max-width: 410px){
+   #whatsapp{
+        margin: 188% 0 0 0;
+    }
+}
+
+@media(min-width:410px) and (max-width: 450px){
+   #whatsapp{
+        margin: 194% 0 0 0;
+    }
+}
+
+/* @media(min-width:400px){
+   #whatsapp{
+        margin: 188% 0 0 0;
+    }
+}
+
+
+@media(min-width:400px){
+   #whatsapp{
+        margin: 188% 0 0 0;
+    }
+}
+
+@media(min-width:500px){
+   #whatsapp{
+        margin: 28% 0 0 0;
+    }
+} */

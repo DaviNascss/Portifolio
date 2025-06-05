@@ -73,7 +73,7 @@ projeto4 = new Projetos(
     'Trabalho de conclusão de curso (TCC) do curso de Desenvolvimento de Sistema que tinha como objetivo desenvolver um sistema de E-comerce de acordo com o nixo do mercado selecionado pelo professor, neste caso um E-comerce de Palntas.',
     'Janeiro 2024',
     'Abrir Projeto',
-    'https://systemwave.com.br/',
+    'https://github.com/DaviNascss',
     'plantsp' // <-- identificador
 );
 
@@ -82,8 +82,8 @@ projeto5 = new Projetos(
     'Escudo',
     'Projeto desenvolvido durante o curso de modelagem 3D no software Blender, cujo o bjetvo foi fazer uma réplica do escudo do vingador Capitão América',
     'Maio 2021',
-    'Abrir Projeto',
-    'https://systemwave.com.br/',
+    'https://github.com/DaviNascss',
+    'https://github.com/DaviNascss',
     'escudo' // <-- identificador
 );
 
@@ -93,8 +93,8 @@ projeto6 = new Projetos(
     'Foxy',
     'Projeto desenvolvido durante o curso de modelagem 3D no software Blender, cujo o bjetvo foi fazer uma réplica do Animatronic Foxy, um jogo de terror muito popular pelo público infantil.',
     'Julho 2021',
-    'Abrir Projeto',
-    'https://systemwave.com.br/',
+    'https://github.com/DaviNascss',
+    'https://github.com/DaviNascss',
     'foxy' // <-- identificador
 );
 
@@ -103,7 +103,7 @@ projeto7 = new Projetos(
     'Wall E',
     'Projeto desenvolvido durante o curso de modelagem 3D no software Blender, cujo o bjetvo foi fazer uma réplica do robô Wall-E da Pixar, procurando levar o máximo de detalhes a obra.',
     'Julho 2023',
-    'Abrir Projeto',
+    '../pags/walle.html',
     'https://systemwave.com.br/',
     'walle' // <-- identificador
 );
