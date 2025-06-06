@@ -59,8 +59,8 @@ projeto2 = new Projetos(
 
 projeto3 = new Projetos(
     'img/trabalhos/charge.png',
-    'GUB',
-    'Trabalhio de conclusão de módulo (TCM) que tinha como objetivo desenvolver uma Página Web para uma empresa que tivesse o objetivo de sanar algum problema, neste caso o processo para alugar carros elétricos.',
+    'Charge',
+    'Trabalho de conclusão de módulo (TCM) que tinha como objetivo desenvolver uma Página Web para uma empresa que tivesse o objetivo de sanar algum problema, neste caso o processo para alugar carros elétricos.',
     'Janeiro 2024',
     'https://systemwave.com.br/',
     'https://github.com/DaviNascss/Charge',
@@ -68,13 +68,13 @@ projeto3 = new Projetos(
 );
 
 projeto4 = new Projetos(
-    'img/trabalhos/plantsp.png',
-    'Plantsp',
-    'Trabalho de conclusão de curso (TCC) do curso de Desenvolvimento de Sistema que tinha como objetivo desenvolver um sistema de E-comerce de acordo com o nixo do mercado selecionado pelo professor, neste caso um E-comerce de Palntas.',
+    'img/trabalhos/Roboteen.png',
+    'Roboteen',
+    'Projeto pessoal desenvolvido com o intuito de simular um Website de uma instituição, que tem como foco principal ensinar e desenvolver diversos outro projetos relacionados a robótica.',
     'Janeiro 2024',
-    'Abrir Projeto',
-    'https://github.com/DaviNascss',
-    'plantsp' // <-- identificador
+    'https://davin4sciment0.github.io/Roboteen/',
+    'https://github.com/DaviNascss/Roboteen',
+    'roboteen' // <-- identificador
 );
 
 projeto5 = new Projetos(
@@ -89,13 +89,13 @@ projeto5 = new Projetos(
 
 
 projeto6 = new Projetos(
-    'img/trabalhos/foxy.png',
-    'Foxy',
+    'img/trabalhos/vilao.png',
+    'Boss',
     'Projeto desenvolvido durante o curso de modelagem 3D no software Blender, cujo o bjetvo foi fazer uma réplica do Animatronic Foxy, um jogo de terror muito popular pelo público infantil.',
     'Julho 2021',
+    '../pags/boss.html',
     'https://github.com/DaviNascss',
-    'https://github.com/DaviNascss',
-    'foxy' // <-- identificador
+    'boss' // <-- identificador
 );
 
 projeto7 = new Projetos(

@@ -1,0 +1,29 @@
+
+@media(max-width:500px){
+
+h1{
+    position: absolute;
+    z-index: 1;
+    margin: 18vw 28vw;
+    width: 20vw;
+    font-size: 18vw !important;
+}
+
+spline-viewer{
+    position: absolute;
+    z-index: 0;
+}
+
+#btncont{
+    margin: 201vw 0;
+    position: absolute;
+    z-index: 2;
+    height: 9vw;
+    width: 100%;
+    font-size: 7vw !important;
+    border-radius: 0vw;
+}
+
+}
+
+
