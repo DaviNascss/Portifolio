@@ -3,10 +3,6 @@
 
 Portfólio de **Full Stack Developer e UI/UX Designer**, feito com HTML, CSS e JavaScript puros: sem frameworks, sem dependências e sem etapa de build. É só abrir o `index.html`.
 
-![Prévia do hero](docs/preview-hero.jpg)
-
-![Prévia da seção de projetos](docs/preview-projetos.jpg)
-
 ## Destaques
 
 - **Tema azul e branco** com hero em degradê, grid técnico e a logo como marca d'água animada.
